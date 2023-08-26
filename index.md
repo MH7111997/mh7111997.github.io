@@ -1,6 +1,9 @@
 <head><title>Mursalin Habib</title></head>
 
 <style>
+    body {
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    }
     .header-section {
         display: flex;
         justify-content: space-between; /* this spaces the details and photo apart */
@@ -21,7 +24,7 @@
 <div class="header-section">
     <div class="details">
         <h1>Mursalin Habib</h1>
-        mursalin \[dot\] habib \[at\] rutgers \[dot\] edu
+        mursalin [dot] habib [at] rutgers [dot] edu
         <!-- Uncomment the below line when you have your room number -->
         <!-- <p>Room Number: **Add Room Number Here**</p> -->
     </div>
