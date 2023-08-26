@@ -2,7 +2,7 @@
     .header-section {
         display: flex;
         justify-content: space-between; /* this spaces the details and photo apart */
-        align-items: center; /* vertically aligns content in the middle */
+        align-items: flex-start; /* vertically aligns content in the middle */
     }
 
     .profile-photo {
