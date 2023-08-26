@@ -21,7 +21,7 @@
 <div class="header-section">
     <div class="details">
         <h1>Mursalin Habib</h1>
-        mursalin.habib@rutgers.edu
+        mursalin \[dot\] habib \[at\] rutgers \[dot\] edu
         <!-- Uncomment the below line when you have your room number -->
         <!-- <p>Room Number: **Add Room Number Here**</p> -->
     </div>
