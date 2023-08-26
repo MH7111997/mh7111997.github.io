@@ -16,8 +16,8 @@
 </style>
 
 
-<div class="header-section">
-    <div class="details">
+<div class="header-section" markdown="1">
+    <div class="details" markdown="1">
 
 # Mursalin Habib
 
