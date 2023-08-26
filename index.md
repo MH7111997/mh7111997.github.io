@@ -2,7 +2,7 @@
 
 <style>
     body {
-        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
     }
     .header-section {
         display: flex;
