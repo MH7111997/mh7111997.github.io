@@ -3,14 +3,18 @@
 [mursalin.habib@rutgers.edu](mailto:mursalin.habib@rutgers.edu)
 <!-- - Room Number: **Add Room Number Here** -->
 
-
+<div class="about-section">
+<img src="/files/website-photo.jpg" alt="Mursalin Habib's Photo" style="float:right; width:150px;">
+  
 ## About Me
 
-<img src="/files/website-photo.jpg" alt="Mursalin Habib's Photo" style="float:right; width:150px;">
+
 
 I am a first-year PhD student in the [CS Theory Group](https://theory.cs.rutgers.edu/) at [Rutgers University](https://www.rutgers.edu/), advised by [Karthik C. S.](http://karthikcs.org/). My current interests are mainly in parameterized and fine-grained complexity.
 
 Before coming to Rutgers, I was an undergraduate student in the [Computer Science & Engineering Department](https://cse.buet.ac.bd/) at [Bangladesh University of Engineering and Technology](https://www.buet.ac.bd/).
+
+</div>
 
 ## Publications
 
