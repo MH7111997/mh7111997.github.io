@@ -12,7 +12,7 @@
     }
 
     .details {
-        margin-top: 20px; /* pushes the details a bit upwards */
+        margin-top: 50px; /* pushes the details a bit upwards */
     }
 </style>
 
