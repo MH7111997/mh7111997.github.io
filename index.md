@@ -20,7 +20,7 @@
 <div class="header-section">
     <div class="details">
         <h1>Mursalin Habib</h1>
-        <a href="mailto:mursalin.habib@rutgers.edu">mursalin.habib@rutgers.edu</a>
+        mursalin.habib@rutgers.edu
         <!-- Uncomment the below line when you have your room number -->
         <!-- <p>Room Number: **Add Room Number Here**</p> -->
     </div>
