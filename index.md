@@ -2,7 +2,7 @@
     .header-section {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .profile-photo {
