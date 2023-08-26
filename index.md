@@ -1,19 +1,21 @@
 <style>
     .header-section {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: space-between; /* this spaces the details and photo apart */
+        align-items: center; /* vertically aligns content in the middle */
     }
 
     .profile-photo {
-        width: 150px;
-        margin-left: 20px;
+        width: 150px; /* or your desired width */
+        margin-left: 20px; /* some space between the details and the photo */
+        margin-bottom: 20px; /* pushes the photo a bit downwards */
     }
 
     .details {
-        /* Any other styling for the details section */
+        margin-top: 20px; /* pushes the details a bit upwards */
     }
 </style>
+
 
 <div class="header-section">
     <div class="details">
