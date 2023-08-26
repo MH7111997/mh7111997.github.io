@@ -12,6 +12,7 @@
 
     .details {
         /* If you want to push the name down a little, use margin-top with a smaller value like 10px or 20px */
+        margin-top: -10px;
     }
 </style>
 
