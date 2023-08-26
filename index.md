@@ -8,7 +8,7 @@
     .profile-photo {
         width: 150px; /* or your desired width */
         margin-left: 20px; /* some space between the details and the photo */
-        margin-bottom: 20px; /* pushes the photo a bit downwards */
+        margin-bottom: 50px; /* pushes the photo a bit downwards */
     }
 
     .details {
