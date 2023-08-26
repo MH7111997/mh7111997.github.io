@@ -1,10 +1,35 @@
+<style>
+    .header-section {
+        display: flex;
+        justify-content: space-between; /* this spaces the details and photo apart */
+        align-items: center; /* vertically aligns content in the middle */
+    }
+
+    .profile-photo {
+        width: 150px; /* or your desired width */
+        margin-left: 20px; /* some space between the details and the photo */
+    }
+
+    .details {
+        /* Adjustments for the left-side content. You can add more styles if needed */
+    }
+</style>
+
+
+<div class="header-section">
+
+    <div class="details">
+    
 # Mursalin Habib
 
 [mursalin.habib@rutgers.edu](mailto:mursalin.habib@rutgers.edu)
 <!-- - Room Number: **Add Room Number Here** -->
 
-<div class="about-section">
-<img src="/files/website-photo.jpg" alt="Mursalin Habib's Photo" style="float:right; width:150px;">
+    </div>
+
+<img src="/files/website-photo.jpg" alt="Mursalin Habib" class="profile-photo">
+
+</div>
   
 ## About Me
 
@@ -14,7 +39,6 @@ I am a first-year PhD student in the [CS Theory Group](https://theory.cs.rutgers
 
 Before coming to Rutgers, I was an undergraduate student in the [Computer Science & Engineering Department](https://cse.buet.ac.bd/) at [Bangladesh University of Engineering and Technology](https://www.buet.ac.bd/).
 
-</div>
 
 ## Publications
 
