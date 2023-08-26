@@ -1,9 +1,9 @@
 # Mursalin Habib
 
-- Email: [mursalin.habib@rutgers.edu](mailto:mursalin.habib@rutgers.edu)
+[mursalin.habib@rutgers.edu](mailto:mursalin.habib@rutgers.edu)
 <!-- - Room Number: **Add Room Number Here** -->
 
-<img src="https://blog.hubspot.com/hubfs/image8-2.jpg" alt="Mursalin Habib's Photo" style="float:right; width:150px;">
+<img src="/files/website-photo.jpg" alt="Mursalin Habib's Photo" style="float:right; width:150px;">
 
 ## About Me
 
@@ -16,10 +16,11 @@ Before coming to Rutgers, I was an undergraduate student in the [Computer Scienc
 ### Preprints/Under Submission
 
 - **[Terraces in Species Tree Inference from Gene Trees](https://www.biorxiv.org/content/10.1101/2022.11.21.517454v2)**
-  - with Kowshic Roy, Saem Hasan, [Atif Hasan Rahman](https://cse.buet.ac.bd/faculty_list/detail/atif), and [Md. Shamsuzzoha Bayzid](https://cse.buet.ac.bd/faculty_list/detail/bayzid).
-  - _Under submission_, 2023
+   with Kowshic Roy, Saem Hasan, [Atif Hasan Rahman](https://cse.buet.ac.bd/faculty_list/detail/atif), and [Md. Shamsuzzoha Bayzid](https://cse.buet.ac.bd/faculty_list/detail/bayzid).
+   _Under submission_, 2023.
 - **[Counting and Verifying Abelian Border Arrays of Binary Words](https://arxiv.org/abs/2111.00259)**
-  - with  [Md. Salman Shamil](https://s-shamil.github.io/), and [M. Sohel Rahman](https://cse.buet.ac.bd/faculty_list/detail/msrahman). 
+   with  [Md. Salman Shamil](https://s-shamil.github.io/), and [M. Sohel Rahman](https://cse.buet.ac.bd/faculty_list/detail/msrahman).
+   _Preprint_, 2021. 
 
 ### Published Papers
 
