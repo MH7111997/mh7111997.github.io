@@ -1,9 +1,6 @@
 <head><title>Mursalin Habib</title></head>
 
 <style>
-    body {
-        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif !important;
-    }
     .header-section {
         display: flex;
         justify-content: space-between; /* this spaces the details and photo apart */
