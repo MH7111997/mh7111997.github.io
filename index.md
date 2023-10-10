@@ -23,7 +23,7 @@
         <h1>Mursalin Habib</h1>
         mursalin [dot] habib [at] rutgers [dot] edu
         <!-- Uncomment the below line when you have your room number -->
-        <!-- <p>Room Number: **Add Room Number Here**</p> -->
+        <p>Hill 275</p>
     </div>
     <img src="/files/website-photo.jpg" alt="Mursalin Habib" class="profile-photo">
 </div>
