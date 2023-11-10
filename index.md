@@ -50,8 +50,6 @@ Before coming to Rutgers, I was an undergraduate student in the [Computer Scienc
 
 ### Published Papers
 
-<!-- Add your published papers here when available -->
-
 -->
 
 _Coming (hopefully) soon!_
