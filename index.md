@@ -39,11 +39,13 @@ Before coming to Rutgers, I was an undergraduate student in the [Computer Scienc
 
 
 ### Preprints
-- **[Explicit Good Codes Approaching Distance 1 in Ulam Metric](https://arxiv.org/abs/2401.17235)**
-  <br>with [Elazar Goldenberg](https://sites.google.com/site/elazargoldenberg/home) and [Karthik C. S.](http://karthikcs.org/)
-  <br>_Preprint_, 2024.
+_Coming (hopefully) soon!_
+
 
 ### Published Papers
-_Coming (hopefully) soon!_
+- **[Explicit Good Codes Approaching Distance 1 in Ulam Metric](https://arxiv.org/abs/2401.17235)**
+  <br>with [Elazar Goldenberg](https://sites.google.com/site/elazargoldenberg/home) and [Karthik C. S.](http://karthikcs.org/)
+  <br>**ISIT**, 2024 (to appear).
+
 
 
