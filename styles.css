@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: 'Palatino Linotype';
     src: url('https://mh7111997.github.io/Palatino%20Linotype/palatinolinotype_roman.ttf') format('truetype');
     font-weight: 300;
@@ -30,24 +30,9 @@
     font-display: swap;
 }
 
-/* body {
+body {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
   font-weight: 400;
   font-style: normal;
-} */
-
-/* body {
-  font-family: 'Pacifico', cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-*/
-
-body {
-  font-family: 'Courier New', Courier, monospace;
 }
 
-
-body {
-  font-family: 'Comic Sans MS', cursive;
-}
