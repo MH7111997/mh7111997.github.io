@@ -27,3 +27,9 @@
     font-weight: 700;
     font-style: italic;
 }
+
+body {
+  font-family: 'Palatino Linotype';
+  font-weight: 300;
+  font-style: normal;
+}
