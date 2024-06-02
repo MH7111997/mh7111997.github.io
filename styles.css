@@ -31,7 +31,7 @@
 }
 
 body, .markdown-body {
-  font-family: 'Palatino Linotype' !important;
+  font-family: 'Palatino Linotype', serif;
   font-weight: 400;
   font-style: normal;
 }
