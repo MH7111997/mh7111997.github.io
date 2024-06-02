@@ -3,6 +3,7 @@
     src: url('/Palatino Linotype/palatinolinotype_roman.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 
 
@@ -11,6 +12,7 @@
     src: url('/Palatino Linotype/palatinolinotype_italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
+    font-display: swap;
 }
 
 
@@ -19,6 +21,7 @@
     src: url('/Palatino Linotype/palatinolinotype_bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -26,10 +29,11 @@
     src: url('/Palatino Linotype/palatinolinotype_bolditalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
+    font-display: swap;
 }
 
 body {
   font-family: 'Palatino Linotype';
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 }
