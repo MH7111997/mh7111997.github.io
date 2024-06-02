@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Palatino Linotype';
-    src: url('../Palatino Linotype/palatinolinotype_roman.ttf') format('truetype');
+    src: url('../mh7111997.github.io/Palatino Linotype/palatinolinotype_roman.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Palatino Linotype';
-    src: url('../Palatino Linotype/palatinolinotype_italic.ttf') format('truetype');
+    src: url('../mh7111997.github.io/Palatino Linotype/palatinolinotype_italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
@@ -16,14 +16,14 @@
 
 @font-face {
     font-family: 'Palatino Linotype';
-    src: url('../Palatino Linotype/palatinolinotype_bold.ttf') format('truetype');
+    src: url('../mh7111997.github.io/Palatino Linotype/palatinolinotype_bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Palatino Linotype';
-    src: url('../Palatino Linotype/palatinolinotype_bolditalic.ttf') format('truetype');
+    src: url('../mh7111997.github.io/Palatino Linotype/palatinolinotype_bolditalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
 }
