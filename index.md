@@ -1,4 +1,7 @@
-<head><title>Mursalin Habib</title></head>
+<head>
+    <link rel="stylesheet" type="text/css" href="/styles.css">    
+    <title>Mursalin Habib</title>
+</head>
 
 <style>
     .header-section {
