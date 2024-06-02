@@ -1,5 +1,4 @@
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/styles.css">
     <title>Mursalin Habib</title>
 </head>
