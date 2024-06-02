@@ -1,11 +1,11 @@
 <head>
-    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <!--<link rel="stylesheet" type="text/css" href="/styles.css">-->
     <title>Mursalin Habib</title>
-    <script>
+    <!-- <script>
         window.onload = function() {
             document.body.style.fontFamily = "'Palatino Linotype', serif";
         };
-    </script>
+    </script> -->
 </head>
 
 <style>
