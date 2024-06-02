@@ -1,9 +1,9 @@
 <head>
-    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/styles.css"> -->
     <title>Mursalin Habib</title>
 </head>
 
-<!--<style>
+<style>
     .header-section {
         display: flex;
         justify-content: space-between; /* this spaces the details and photo apart */
@@ -19,7 +19,7 @@
         /* If you want to push the name down a little, use margin-top with a smaller value like 10px or 20px */
         margin-top: -10px;
     }
-</style> -->
+</style>
 
 <div class="header-section">
     <div class="details">
