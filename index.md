@@ -54,7 +54,7 @@ _Coming (hopefully) soon!_
 
 ### Published Papers
 - **[Explicit Good Codes Approaching Distance 1 in Ulam Metric](https://arxiv.org/abs/2401.17235)**
-  <br>with [Elazar Goldenberg](https://sites.google.com/site/elazargoldenberg/home) and [Karthik C. S.](http://karthikcs.org/)
+  <br>with [Elazar Goldenberg](https://sites.google.com/site/elazargoldenberg/home) and [Karthik C. S.](https://cskarthikcs.github.io/)
   <br>**ISIT** 2024.
 
 
