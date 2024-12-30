@@ -42,7 +42,6 @@ I am a second-year PhD student in the [CS Theory Group](https://theory.cs.rutger
 
 Before coming to Rutgers, I was an undergraduate student in the [Computer Science & Engineering Department](https://cse.buet.ac.bd/) at [Bangladesh University of Engineering and Technology](https://www.buet.ac.bd/).
 
-In Fall 2024, I am visiting the [Institute for Computer Science, Artificial Intelligence and Technology (INSAIT)](https://insait.ai/) at Sofia University, Bulgaria.
 
 ## Publications
 
