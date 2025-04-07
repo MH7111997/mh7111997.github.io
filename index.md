@@ -48,7 +48,8 @@ Before coming to Rutgers, I was an undergraduate student in the [Computer Scienc
 
 
 ### Preprints
-_Coming (hopefully) soon!_
+- **[Constant Rate Isometric Embeddings of Hamming Metric into Edit Metric](https://arxiv.org/abs/2504.03605)**
+  <br>with [Sudatta Bhattacharya](https://www.mff.cuni.cz/en/faculty/organizational-structure/people?hdl=13958), [Sanjana Dey](https://sites.google.com/view/sanjanadey/home), [Elazar Goldenberg](https://sites.google.com/site/elazargoldenberg/home), [Bernhard Haeupler](https://people.inf.ethz.ch/haeuplb/), [Karthik C. S.](https://cskarthikcs.github.io/) and [Michal Koucký](https://iuuk.mff.cuni.cz/~koucky/)
 
 
 ### Published Papers
