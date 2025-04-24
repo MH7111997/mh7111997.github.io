@@ -38,7 +38,7 @@
 
 ## About Me
 
-I am a second-year PhD student in the [CS Theory Group](https://theory.cs.rutgers.edu/) at [Rutgers University](https://www.rutgers.edu/), advised by [Karthik C. S.](http://karthikcs.org/) My current interests are mainly in parameterized and fine-grained complexity.
+I am a second-year PhD student in the [CS Theory Group](https://theory.cs.rutgers.edu/) at [Rutgers University](https://www.rutgers.edu/), advised by [Karthik C. S.](http://karthikcs.org/) My current interests are mainly in error-correcting codes and fine-grained complexity.
 
 Before coming to Rutgers, I was an undergraduate student in the [Computer Science & Engineering Department](https://cse.buet.ac.bd/) at [Bangladesh University of Engineering and Technology](https://www.buet.ac.bd/).
 
@@ -48,6 +48,9 @@ Before coming to Rutgers, I was an undergraduate student in the [Computer Scienc
 
 
 ### Preprints
+- **[Hardness of Median and Center in the Ulam Metric](https://arxiv.org/abs/2504.16437)**
+  <br>with [Nick Fischer](https://nick-fischer.com/), [Elazar Goldenberg](https://sites.google.com/site/elazargoldenberg/home) and [Karthik C. S.](https://cskarthikcs.github.io/)
+  
 - **[Constant Rate Isometric Embeddings of Hamming Metric into Edit Metric](https://arxiv.org/abs/2504.03605)**
   <br>with [Sudatta Bhattacharya](https://www.mff.cuni.cz/en/faculty/organizational-structure/people?hdl=13958), [Sanjana Dey](https://sites.google.com/view/sanjanadey/home), [Elazar Goldenberg](https://sites.google.com/site/elazargoldenberg/home), [Bernhard Haeupler](https://people.inf.ethz.ch/haeuplb/), [Karthik C. S.](https://cskarthikcs.github.io/) and [Michal Koucký](https://iuuk.mff.cuni.cz/~koucky/)
 
