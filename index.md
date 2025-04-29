@@ -59,6 +59,7 @@ Before coming to Rutgers, I was an undergraduate student in the [Computer Scienc
 - **[Explicit Good Codes Approaching Distance 1 in Ulam Metric](https://arxiv.org/abs/2401.17235)**
   <br>with [Elazar Goldenberg](https://sites.google.com/site/elazargoldenberg/home) and [Karthik C. S.](https://cskarthikcs.github.io/)
   <br>**ISIT** 2024.
+  <br>To appear in **IEEE Transactions on Information Theory**.
 
 
 
