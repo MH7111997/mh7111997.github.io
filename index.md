@@ -131,7 +131,7 @@
       <a href="https://theory.cs.rutgers.edu/">CS Theory Group</a> at
       <a href="https://www.rutgers.edu/">Rutgers University</a>, advised by
       <a href="https://cskarthikcs.github.io/">Karthik C. S.</a>
-      My current interests are mainly in error-correcting codes and fine-grained complexity.
+      My current interests are mainly in error-correcting codes and fine-grained complexity. My CV can be found <a href = "mh7111997.github.io/files/CV_Mursalin.pdf"> here</a>.
     </p>
     <p>
       Before coming to Rutgers, I was an undergraduate student in the
@@ -199,6 +199,7 @@
         </div>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2401.17235"><i class="ai ai-arxiv"></i> arXiv</a>
+          <a href="https://ieeexplore.ieee.org/document/10982108"><i class="fa-solid fa-book-open"> Journal</i></a>
         </div>
       </li>
     </ul>
