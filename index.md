@@ -167,7 +167,14 @@ p, li, .pub-title, .pub-authors, .contact { overflow-wrap: anywhere; }
 section, p, ul, .pubs, .pub-title, .pub-authors { max-width: 100%; }
 
 /* Wrap long tokens (emails, long names, links) */
-p, li, a, .pub-title, .pub-authors, .contact { overflow-wrap: anywhere; word-break: break-word; }
+/* Natural wrapping + hyphenation for long words */
+p, li, a, .pub-title, .pub-authors {
+  word-break: normal;           /* don't break mid-grapheme by default */
+  overflow-wrap: normal;        /* prefer normal wrapping */
+  hyphens: auto;                /* ← allow auto-hyphenation */
+  -webkit-hyphens: auto;        /* Safari/Chrome */
+  -ms-hyphens: auto;            /* old Edge */
+}
 
 /* Images scale down */
 img { max-width: 100%; height: auto; }
