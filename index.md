@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -97,6 +97,41 @@
 
     /* Footer */
     footer { margin-top: 48px; color: var(--muted); font-size: .95rem; }
+
+    /* Images never overflow */
+img { max-width: 100%; height: auto; }
+
+/* Long links/addresses can wrap */
+.contact, .pub-title, .pub-authors { word-break: break-word; }
+
+/* Mobile layout */
+@media (max-width: 720px) {
+  .container { padding: 20px 14px 40px; }
+  .header-section {
+    display: grid;
+    grid-template-columns: 1fr;     /* stack text + photo */
+    gap: 16px;
+    align-items: center;
+    text-align: left;
+  }
+  .profile-photo {
+    width: 140px;      /* smaller on phones */
+    border-radius: 12px;
+    justify-self: start;
+  }
+  .name { font-size: 1.8rem; }
+  .tagline { margin-top: 2px; }
+
+  /* Let contact items wrap instead of forcing horizontal scroll */
+  .contact { display: flex; flex-wrap: wrap; gap: 8px 14px; }
+  .contact a { border-bottom: 1px dotted #ccc; }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  .name { font-size: 1.6rem; }
+}
+
   </style>
 
 
