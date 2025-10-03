@@ -199,7 +199,7 @@
         </div>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2401.17235"><i class="ai ai-arxiv"></i> arXiv</a>
-          <a href="https://ieeexplore.ieee.org/document/10982108"><i class="fa-solid fa-book-open"> Journal</i></a>
+          <a href="https://ieeexplore.ieee.org/document/10982108"><i class="fa-solid fa-book-open"></i> Journal</a>
         </div>
       </li>
     </ul>
