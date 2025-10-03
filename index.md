@@ -214,7 +214,7 @@ img { max-width: 100%; height: auto; }
     </p>
     <p>
       Before coming to Rutgers, I was an undergraduate student in the
-      <a href="https://cse.buet.ac.bd/">Department of Computer Science &amp; Engineering</a> at
+      <a href="https://cse.buet.ac.bd/">Computer Science &amp; Engineering Department</a> at
       <a href="https://www.buet.ac.bd/">Bangladesh University of Engineering and Technology</a>.
     </p>
   </section>
