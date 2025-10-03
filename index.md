@@ -132,6 +132,32 @@ img { max-width: 100%; height: auto; }
   .name { font-size: 1.6rem; }
 }
 
+                        /* Prevent horizontal scroll as a last-resort guard */
+html, body { max-width: 100%; overflow-x: hidden; }
+
+/* Make long text wrap nicely everywhere */
+p, li, .pub-title, .pub-authors, .contact { overflow-wrap: anywhere; }
+
+/* Contact row: flexible, wraps, and has lightweight separators */
+.contact {
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: 8px 14px;
+}
+.contact .sep { color: #b8b8b8; }
+.contact a { border-bottom: 1px dotted #bbb; }
+
+/* On narrow phones, hide separators (dots) to save room */
+@media (max-width: 480px) {
+  .contact .sep { display: none; }
+}
+
+/* Ensure the header grid never forces a wide column on mobile */
+@media (max-width: 720px) {
+  .header-section { grid-template-columns: 1fr; }
+  .profile-photo { width: 140px; }
+}
+
+
   </style>
 
 
@@ -143,19 +169,14 @@ img { max-width: 100%; height: auto; }
       <h1 class="name">Mursalin Habib</h1>
       <div class="tagline">PhD student @ Rutgers University</div>
       <div class="contact">
-        <i class="fa-solid fa-envelope"></i>
-        <a href="mailto:mursalin.habib@rutgers.edu">mursalin.habib@rutgers.edu</a>
-        &nbsp;&nbsp;|&nbsp;&nbsp;<i class="fa-solid fa-location-dot"></i> Hill 275
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-        <!-- Add/replace these with your actual links -->
-        <a href="https://scholar.google.com/citations?user=W7Ai-u8AAAAJ&hl=en&oi=ao" title="Google Scholar"><i class="ai ai-google-scholar ai-lg"></i></a>
-        <a href="https://dblp.org/pid/52/7354.html" title="DBLP"><i class="ai ai-dblp ai-lg"></i></a>
-        <!-- <a href="https://dblp.org/" title="DBLP"><i class="ai ai-dblp ai-lg"></i></a> 
-        <a href="https://github.com/" title="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a> -->
+        <a href="mailto:mursalin.habib@rutgers.edu"><i class="fa-solid fa-envelope"></i> mursalin.habib@rutgers.edu</a>
+        <span class="sep">·</span>
+        <span class="loc"><i class="fa-solid fa-location-dot"></i> Hill 275</span>
+        <span class="sep">·</span>
+        <a href="https://scholar.google.com/citations?user=W7Ai-u8AAAAJ&hl=en&oi=ao" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="https://dblp.org/pid/52/7354.html" title="DBLP"><i class="ai ai-dblp"></i></a>
       </div>
     </div>
-
     <img src="/files/website-photo.jpg" alt="Mursalin Habib" class="profile-photo">
   </div>
 
