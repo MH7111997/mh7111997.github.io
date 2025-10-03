@@ -132,9 +132,6 @@ img { max-width: 100%; height: auto; }
   .name { font-size: 1.6rem; }
 }
 
-                        /* Prevent horizontal scroll as a last-resort guard */
-html, body { max-width: 100%; overflow-x: hidden; }
-
 /* Make long text wrap nicely everywhere */
 p, li, .pub-title, .pub-authors, .contact { overflow-wrap: anywhere; }
 
@@ -156,6 +153,25 @@ p, li, .pub-title, .pub-authors, .contact { overflow-wrap: anywhere; }
   .header-section { grid-template-columns: 1fr; }
   .profile-photo { width: 140px; }
 }
+
+    /* Make widths behave and allow wrapping everywhere */
+* { box-sizing: border-box; }
+
+/* Container never exceeds viewport */
+.container { width: min(100%, var(--maxw)); }
+
+/* Let grid/flex children shrink instead of pushing the page wider */
+.header-section > * { min-width: 0; }  /* critical for text wrapping in CSS Grid */
+
+/* Never let common blocks exceed the viewport */
+section, p, ul, .pubs, .pub-title, .pub-authors { max-width: 100%; }
+
+/* Wrap long tokens (emails, long names, links) */
+p, li, a, .pub-title, .pub-authors, .contact { overflow-wrap: anywhere; word-break: break-word; }
+
+/* Images scale down */
+img { max-width: 100%; height: auto; }
+
 
 
   </style>
