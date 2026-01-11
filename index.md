@@ -194,7 +194,7 @@ img { max-width: 100%; height: auto; }
       <div class="contact">
         <a href="mailto:mursalin.habib@rutgers.edu"><i class="fa-solid fa-envelope"></i> mursalin.habib@rutgers.edu</a>
         <span class="sep">·</span>
-        <span class="loc"><i class="fa-solid fa-location-dot"></i> Hill 275</span>
+        <span class="loc"><i class="fa-solid fa-location-dot"></i> Hill 427</span>
         <span class="sep">·</span>
         <a href="https://scholar.google.com/citations?user=W7Ai-u8AAAAJ&hl=en&oi=ao" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
         <a href="https://dblp.org/pid/52/7354-1.html" title="DBLP"><i class="ai ai-dblp"></i></a>
@@ -288,6 +288,6 @@ img { max-width: 100%; height: auto; }
 
 
   <footer>
-    Last updated: <!-- update manually --> Oct 2025 • © Mursalin Habib
+    Last updated: <!-- update manually --> Jan 2026 • © Mursalin Habib
   </footer>
 </div>
