@@ -197,7 +197,7 @@ img { max-width: 100%; height: auto; }
         <span class="loc"><i class="fa-solid fa-location-dot"></i> Hill 275</span>
         <span class="sep">·</span>
         <a href="https://scholar.google.com/citations?user=W7Ai-u8AAAAJ&hl=en&oi=ao" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-        <a href="https://dblp.org/pid/52/7354.html" title="DBLP"><i class="ai ai-dblp"></i></a>
+        <a href="https://dblp.org/pid/52/7354-1.html" title="DBLP"><i class="ai ai-dblp"></i></a>
       </div>
     </div>
     <img src="/files/website-photo.jpg" alt="Mursalin Habib" class="profile-photo">
