@@ -225,7 +225,7 @@ img { max-width: 100%; height: auto; }
 
   <h3>Preprints</h3>
   <ul class="pubs">
-    {% for pub in site.publications.preprints %}
+    {% for pub in site.data.publications.preprints %}
       <li>
         <div class="pub-title"><b>{{ pub.title }}</b></div>
         {% if pub.authors and pub.authors != "" %}
@@ -255,7 +255,7 @@ img { max-width: 100%; height: auto; }
 
   <h3>Published Papers</h3>
   <ul class="pubs">
-    {% for pub in site.publications.published %}
+    {% for pub in site.data.publications.published %}
       <li>
         <div class="pub-title"><b>{{ pub.title }}</b></div>
         {% if pub.authors and pub.authors != "" %}
