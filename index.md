@@ -227,11 +227,24 @@ img { max-width: 100%; height: auto; }
     <ul class="pubs">
       <li>
         <div class="pub-title">
+            <b>An Optimal Algorithm for Binary Closest String</b> 
+        </div>
+        <div class="pub-authors">
+           with Nick Fischer
+        </div>
+      </li>
+    </ul>
+
+    <h3> Published Papers </h3>
+    <ul class="pubs">
+    <li>
+        <div class="pub-title">
             <b>Constant Rate Isometric Embeddings of Hamming Metric into Edit Metric</b> 
         </div>
         <div class="pub-authors">
            with Sudatta Bhattacharya, Sanjana Dey, Elazar Goldenberg, Bernhard Haeupler, Karthik C. S. and Michal Koucký
         </div>
+        <div><span class="pub-venue">ICALP</span> 2026.</div>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2504.03605"><i class="ai ai-arxiv"></i> arXiv</a>
           <!-- Add code/slides when available:
@@ -240,10 +253,6 @@ img { max-width: 100%; height: auto; }
           -->
         </div>
       </li>
-    </ul>
-
-    <h3> Published Papers </h3>
-    <ul class="pubs">
       <li>
         <div class="pub-title">
           <b>Algorithmic Improvements to List Decoding of Folded Reed-Solomon Codes</b>
@@ -288,6 +297,6 @@ img { max-width: 100%; height: auto; }
 
 
   <footer>
-    Last updated: <!-- update manually --> Jan 2026 • © Mursalin Habib
+    Last updated: <!-- update manually --> April 2026 • © Mursalin Habib
   </footer>
 </div>
