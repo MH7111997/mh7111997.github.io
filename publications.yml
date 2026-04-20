@@ -1,0 +1,50 @@
+preprints:
+  - title: "An Optimal Algorithm for Binary Closest String"
+    authors: "with Nick Fischer"
+    venue: ""
+    year:
+    links: []
+
+published:
+  - title: "Constant Rate Isometric Embeddings of Hamming Metric into Edit Metric"
+    authors: "with Sudatta Bhattacharya, Sanjana Dey, Elazar Goldenberg, Bernhard Haeupler, Karthik C. S. and Michal Koucký"
+    venue: "ICALP"
+    year: 2026
+    note: ""
+    links:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2504.03605"
+        icon: "ai ai-arxiv"
+
+  - title: "Algorithmic Improvements to List Decoding of Folded Reed-Solomon Codes"
+    authors: "with Vikrant Ashvinkumar and Shashank Srivastava"
+    venue: "SODA"
+    year: 2026
+    note: ""
+    links:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2508.12548"
+        icon: "ai ai-arxiv"
+
+  - title: "Hardness of Median and Center in the Ulam Metric"
+    authors: "with Nick Fischer, Elazar Goldenberg and Karthik C. S."
+    venue: "ESA"
+    year: 2025
+    note: ""
+    links:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2504.16437"
+        icon: "ai ai-arxiv"
+
+  - title: "Explicit Good Codes Approaching Distance 1 in Ulam Metric"
+    authors: "with Elazar Goldenberg and Karthik C. S."
+    venue: "ISIT"
+    year: 2024
+    note: "In <em>IEEE Transactions on Information Theory</em>, Volume 71, Issue 7, July 2025."
+    links:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2401.17235"
+        icon: "ai ai-arxiv"
+      - label: "Journal"
+        url: "https://ieeexplore.ieee.org/document/10982108"
+        icon: "fa-solid fa-book-open"
