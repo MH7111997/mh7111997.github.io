@@ -221,77 +221,68 @@ img { max-width: 100%; height: auto; }
 
 
   <section id="publications">
-    <h2>Publications</h2>
+  <h2>Publications</h2>
 
-    <h3> Preprints </h3>
-    <ul class="pubs">
+  <h3>Preprints</h3>
+  <ul class="pubs">
+    {% for pub in site.publications.preprints %}
       <li>
-        <div class="pub-title">
-            <b>An Optimal Algorithm for Binary Closest String</b> 
-        </div>
-        <div class="pub-authors">
-           with Nick Fischer
-        </div>
+        <div class="pub-title"><b>{{ pub.title }}</b></div>
+        {% if pub.authors and pub.authors != "" %}
+          <div class="pub-authors">{{ pub.authors }}</div>
+        {% endif %}
+        {% if pub.venue and pub.venue != "" %}
+          <div>
+            <span class="pub-venue">{{ pub.venue }}</span>
+            {% if pub.year %} {{ pub.year }}.{% endif %}
+          </div>
+        {% endif %}
+        {% if pub.note and pub.note != "" %}
+          <div>{{ pub.note }}</div>
+        {% endif %}
+        {% if pub.links and pub.links.size > 0 %}
+          <div class="pub-links">
+            {% for link in pub.links %}
+              <a href="{{ link.url }}">
+                <i class="{{ link.icon }}"></i> {{ link.label }}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
       </li>
-    </ul>
+    {% endfor %}
+  </ul>
 
-    <h3> Published Papers </h3>
-    <ul class="pubs">
-    <li>
-        <div class="pub-title">
-            <b>Constant Rate Isometric Embeddings of Hamming Metric into Edit Metric</b> 
-        </div>
-        <div class="pub-authors">
-           with Sudatta Bhattacharya, Sanjana Dey, Elazar Goldenberg, Bernhard Haeupler, Karthik C. S. and Michal Koucký
-        </div>
-        <div><span class="pub-venue">ICALP</span> 2026.</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2504.03605"><i class="ai ai-arxiv"></i> arXiv</a>
-          <!-- Add code/slides when available:
-          <a href="#"><i class="fa-solid fa-code"></i> code</a>
-          <a href="#"><i class="fa-solid fa-file-powerpoint"></i> slides</a>
-          -->
-        </div>
-      </li>
+  <h3>Published Papers</h3>
+  <ul class="pubs">
+    {% for pub in site.publications.published %}
       <li>
-        <div class="pub-title">
-          <b>Algorithmic Improvements to List Decoding of Folded Reed-Solomon Codes</b>
-        </div>
-        <div class="pub-authors">with Vikrant Ashvinkumar and Shashank Srivastava</div>
-        <div><span class="pub-venue">SODA</span> 2026.</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2508.12548"><i class="ai ai-arxiv"></i> arXiv</a>
-        </div>
-      </li>
-
-      <li>
-        <div class="pub-title">
-          <b>Hardness of Median and Center in the Ulam Metric</b>
-        </div>
-        <div class="pub-authors">with Nick Fischer, Elazar Goldenberg and Karthik C. S.</div>
-        <div><span class="pub-venue">ESA</span> 2025.</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2504.16437"><i class="ai ai-arxiv"></i> arXiv</a>
-        </div>
-      </li>
-
-      <li>
-        <div class="pub-title">
-          <b>Explicit Good Codes Approaching Distance 1 in Ulam Metric</b>
-        </div>
-        <div class="pub-authors">with Elazar Goldenberg and Karthik C. S.</div>
+        <div class="pub-title"><b>{{ pub.title }}</b></div>
+        {% if pub.authors and pub.authors != "" %}
+          <div class="pub-authors">{{ pub.authors }}</div>
+        {% endif %}
         <div>
-          <span class="pub-venue">ISIT</span> 2024. 
-          <br> In <em>IEEE Transactions on Information Theory</em>,
-          Volume 71, Issue 7, July 2025.
+          {% if pub.venue and pub.venue != "" %}
+            <span class="pub-venue">{{ pub.venue }}</span>
+          {% endif %}
+          {% if pub.year %} {{ pub.year }}.{% endif %}
         </div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2401.17235"><i class="ai ai-arxiv"></i> arXiv</a>
-          <a href="https://ieeexplore.ieee.org/document/10982108"><i class="fa-solid fa-book-open"></i> Journal</a>
-        </div>
+        {% if pub.note and pub.note != "" %}
+          <div>{{ pub.note }}</div>
+        {% endif %}
+        {% if pub.links and pub.links.size > 0 %}
+          <div class="pub-links">
+            {% for link in pub.links %}
+              <a href="{{ link.url }}">
+                <i class="{{ link.icon }}"></i> {{ link.label }}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
       </li>
-    </ul>
-  </section>
+    {% endfor %}
+  </ul>
+</section>
 
 
 
