@@ -3,7 +3,11 @@ preprints:
     authors: "with Nick Fischer"
     venue: ""
     year:
-    links: []
+    links:
+    links:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2605.31417"
+        icon: "ai ai-arxiv"
 
 published:
   - title: "Constant Rate Isometric Embeddings of Hamming Metric into Edit Metric"
