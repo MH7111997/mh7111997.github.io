@@ -291,6 +291,6 @@ img { max-width: 100%; height: auto; }
 
 
   <footer>
-    Last updated: <!-- update manually --> April 2026 • © Mursalin Habib
+    Last updated: <!-- update manually --> June 2026 • © Mursalin Habib
   </footer>
 </div>
