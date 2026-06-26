@@ -217,6 +217,9 @@ img { max-width: 100%; height: auto; }
       <a href="https://cse.buet.ac.bd/">Computer Science &amp; Engineering Department</a> at
       <a href="https://www.buet.ac.bd/">Bangladesh University of Engineering and Technology</a>.
     </p>
+    <p>
+      In Summer 2026, I am visiting the University of Illinois Urbana-Champaign, hosted by <a href= "https://granha.github.io/">Fernando Granha Jeronimo</a>.
+    </p>
   </section>
 
 
