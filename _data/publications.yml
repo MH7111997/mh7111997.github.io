@@ -1,9 +1,17 @@
 preprints:
+  - title: "Ulam Median is NP-hard for Four Permutations"
+    authors: ""
+    venue: ""
+    year:
+    links:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2608.05544"
+        icon: "ai ai-arxiv"
+
   - title: "An Optimal Algorithm for Binary Closest String"
     authors: "with Nick Fischer"
     venue: ""
     year:
-    links:
     links:
       - label: "arXiv"
         url: "https://arxiv.org/abs/2605.31417"
@@ -24,7 +32,7 @@ published:
     authors: "with Vikrant Ashvinkumar and Shashank Srivastava"
     venue: "SODA"
     year: 2026
-    note: ""
+    note: "Invited to special issue."
     links:
       - label: "arXiv"
         url: "https://arxiv.org/abs/2508.12548"
