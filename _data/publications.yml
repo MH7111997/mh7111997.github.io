@@ -22,17 +22,20 @@ published:
     authors: "with Sudatta Bhattacharya, Sanjana Dey, Elazar Goldenberg, Bernhard Haeupler, Karthik C. S. and Michal Koucký"
     venue: "ICALP"
     year: 2026
-    note: ""
+    journal: ""
+    notes: []
     links:
       - label: "arXiv"
         url: "https://arxiv.org/abs/2504.03605"
         icon: "ai ai-arxiv"
 
-  - title: "Algorithmic Improvements to List Decoding of Folded Reed-Solomon Codes"
+  - title: "Algorithmic Improvements to List Decoding of Folded Reed–Solomon Codes"
     authors: "with Vikrant Ashvinkumar and Shashank Srivastava"
     venue: "SODA"
     year: 2026
-    note: ""
+    journal: ""
+    notes:
+      - "Invited to a special issue."
     links:
       - label: "arXiv"
         url: "https://arxiv.org/abs/2508.12548"
@@ -42,7 +45,8 @@ published:
     authors: "with Nick Fischer, Elazar Goldenberg and Karthik C. S."
     venue: "ESA"
     year: 2025
-    note: ""
+    journal: ""
+    notes: []
     links:
       - label: "arXiv"
         url: "https://arxiv.org/abs/2504.16437"
@@ -52,7 +56,8 @@ published:
     authors: "with Elazar Goldenberg and Karthik C. S."
     venue: "ISIT"
     year: 2024
-    note: "In <em>IEEE Transactions on Information Theory</em>, Volume 71, Issue 7, July 2025."
+    journal: "<em>IEEE Transactions on Information Theory</em>, Volume 71, Issue 7, July 2025."
+    notes: []
     links:
       - label: "arXiv"
         url: "https://arxiv.org/abs/2401.17235"

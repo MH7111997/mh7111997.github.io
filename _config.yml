@@ -1,2 +1,8 @@
-title: ""
+title: "Mursalin Habib"
+description: "PhD student at Rutgers University."
+url: "https://mh7111997.github.io"
+baseurl: ""
+exclude:
+  - "_site"
+  - "vendor"
 
