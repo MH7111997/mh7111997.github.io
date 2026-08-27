@@ -39,7 +39,7 @@ layout: null
           <p class="tagline">PhD student in Computer Science at Rutgers University.</p>
 
           <nav class="contact" aria-label="Contact and profile links">
-            <a href="mailto:mursalin.habib@rutgers.edu"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+            <a class="email-link" href="mailto:mursalin.habib@rutgers.edu"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span class="email-address">mursalin.habib@rutgers.edu</span></a>
             <a href="https://scholar.google.com/citations?user=W7Ai-u8AAAAJ&amp;hl=en&amp;oi=ao"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
             <a href="https://dblp.org/pid/52/7354-1.html"><i class="ai ai-dblp" aria-hidden="true"></i><span>DBLP</span></a>
             <a href="{{ '/files/CV_Mursalin.pdf' | relative_url }}"><i class="fa-solid fa-file-lines" aria-hidden="true"></i><span>CV</span></a>
