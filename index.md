@@ -40,19 +40,18 @@ layout: null
 
           <nav class="contact" aria-label="Contact and profile links">
             <a class="email-link" href="mailto:mursalin.habib@rutgers.edu"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span class="email-address">mursalin.habib@rutgers.edu</span></a>
-            <a href="https://scholar.google.com/citations?user=W7Ai-u8AAAAJ&amp;hl=en&amp;oi=ao"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
-            <a href="https://dblp.org/pid/52/7354-1.html"><i class="ai ai-dblp" aria-hidden="true"></i><span>DBLP</span></a>
-            <a href="{{ '/files/CV_Mursalin.pdf' | relative_url }}"><i class="fa-solid fa-file-lines" aria-hidden="true"></i><span>CV</span></a>
-            <span class="contact-detail"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Hill 427</span></span>
+            <a class="icon-link" href="https://scholar.google.com/citations?user=W7Ai-u8AAAAJ&amp;hl=en&amp;oi=ao" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+            <a class="icon-link" href="https://dblp.org/pid/52/7354-1.html" aria-label="DBLP" title="DBLP"><i class="ai ai-dblp" aria-hidden="true"></i></a>
+            <a class="icon-link" href="{{ '/files/CV_Mursalin.pdf' | relative_url }}" aria-label="Curriculum vitae" title="CV"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></a>
           </nav>
         </div>
 
         <img
           class="profile-photo"
-          src="{{ '/files/website-photo.jpg' | relative_url }}"
+          src="{{ '/files/website-photo-2.png' | relative_url }}"
           alt="Portrait of Mursalin Habib"
-          width="1125"
-          height="1500"
+          width="862"
+          height="831"
           decoding="async"
         >
       </header>

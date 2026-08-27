@@ -108,9 +108,9 @@ a:focus-visible {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 172px;
+  grid-template-columns: minmax(0, 1fr) 236px;
   align-items: center;
-  gap: clamp(46px, 7vw, 84px);
+  gap: clamp(40px, 5vw, 70px);
   padding: 68px 0 62px;
 }
 
@@ -157,11 +157,11 @@ h1 {
   letter-spacing: -0.025em;
 }
 
-.contact-detail {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  color: var(--quiet);
+.contact .icon-link {
+  width: 1.75rem;
+  height: 1.75rem;
+  justify-content: center;
+  margin: -0.25rem;
 }
 
 .contact i {
@@ -173,7 +173,7 @@ h1 {
 
 .profile-photo {
   display: block;
-  width: 172px;
+  width: 236px;
   height: auto;
   aspect-ratio: 3 / 4;
   border: 1px solid rgba(33, 31, 27, 0.12);
@@ -350,14 +350,14 @@ footer {
   }
 
   .hero {
-    grid-template-columns: minmax(0, 1fr) 136px;
+    grid-template-columns: minmax(0, 1fr) 156px;
     gap: 28px;
     min-height: auto;
     padding: 52px 0 48px;
   }
 
   .profile-photo {
-    width: 136px;
+    width: 156px;
   }
 
   .content-section {
@@ -383,7 +383,7 @@ footer {
   }
 
   .profile-photo {
-    width: 128px;
+    width: 144px;
   }
 
   .tagline {
