@@ -1,21 +1,25 @@
 preprints:
-  # - title: "Ulam Rank Aggregation Is Hard to Approximate for Four Rankings"
-  #   authors: "with Sk Ruhul Azgor, Diptarka Chakraborty, Le Van Cuong, Debarati Das and Tien Long Nguyen"
-  #   venue: ""
-  #   year:
-  #   links:
-  #     - label: "arXiv"
-  #       url: ""
-  #       icon: "ai ai-arxiv"
-
-  - title: "Ulam Median is NP-hard for Four Permutations"
-    authors: ""
+  - title: "Ulam Rank Aggregation Is Hard to Approximate for Four Rankings"
+    authors: "with Sk Ruhul Azgor, Diptarka Chakraborty, Le Van Cuong, Debarati Das and Tien Long Nguyen"
     venue: ""
     year:
     links:
       - label: "arXiv"
-        url: "https://arxiv.org/abs/2608.05544"
+        url: "https://arxiv.org/abs/2609.05874"
         icon: "ai ai-arxiv"
+
+  # - title: "Ulam Median is NP-hard for Four Permutations"
+  #   authors: ""
+  #   venue: ""
+  #   year:
+  #   links:
+  #     - label: "arXiv"
+  #       url: "https://arxiv.org/abs/2608.05544"
+  #       icon: "ai ai-arxiv"
+  #   notes:
+  #     - text: "Superseded by the "
+  #       link_label: "merged version"
+  #       link_url: "https://arxiv.org/abs/2609.05874"
 
   - title: "An Optimal Algorithm for Binary Closest String"
     authors: "with Nick Fischer"

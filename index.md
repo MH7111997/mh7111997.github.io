@@ -106,7 +106,13 @@ layout: null
                       {% if pub.notes and pub.notes.size > 0 %}
                         <ul class="publication-notes" aria-label="Special notes for {{ pub.title }}">
                           {% for note in pub.notes %}
-                            <li>{{ note }}</li>
+                            <li>
+                              {% if note.link_url %}
+                                {{ note.text }}<a href="{{ note.link_url }}">{{ note.link_label }}</a>.
+                              {% else %}
+                                {{ note }}
+                              {% endif %}
+                            </li>
                           {% endfor %}
                         </ul>
                       {% endif %}
@@ -145,7 +151,13 @@ layout: null
                       {% if pub.notes and pub.notes.size > 0 %}
                         <ul class="publication-notes" aria-label="Special notes for {{ pub.title }}">
                           {% for note in pub.notes %}
-                            <li>{{ note }}</li>
+                            <li>
+                              {% if note.link_url %}
+                                {{ note.text }}<a href="{{ note.link_url }}">{{ note.link_label }}</a>.
+                              {% else %}
+                                {{ note }}
+                              {% endif %}
+                            </li>
                           {% endfor %}
                         </ul>
                       {% endif %}
