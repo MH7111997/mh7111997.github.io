@@ -21,16 +21,17 @@ preprints:
   #       link_label: "merged version"
   #       link_url: "https://arxiv.org/abs/2609.05874"
 
+
+published:
   - title: "An Optimal Algorithm for Binary Closest String"
     authors: "with Nick Fischer"
-    venue: ""
-    year:
+    venue: "SOSA"
+    year: 2027
     links:
       - label: "arXiv"
         url: "https://arxiv.org/abs/2605.31417"
         icon: "ai ai-arxiv"
 
-published:
   - title: "Constant Rate Isometric Embeddings of Hamming Metric into Edit Metric"
     authors: "with Sudatta Bhattacharya, Sanjana Dey, Elazar Goldenberg, Bernhard Haeupler, Karthik C. S. and Michal Koucký"
     venue: "ICALP"
