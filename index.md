@@ -178,7 +178,7 @@ layout: null
       </main>
 
       <footer>
-        <span>Last updated August 2026</span>
+        <span>Last updated {{ site.time | date: "%B %Y" }}</span>
         <span>© Mursalin Habib</span>
       </footer>
     </div>
