@@ -65,7 +65,7 @@ layout: null
               <a href="https://www.rutgers.edu/">Rutgers University</a>, where I am part of the
               <a href="https://theory.cs.rutgers.edu/">CS Theory Group</a> and advised by
               <a href="https://cskarthikcs.github.io/">Karthik C. S.</a>
-              My current research is focused mainly in the theory of error-correcting codes.
+              My current research is focused mainly on the theory of error-correcting codes.
             </p>
             <p>
               Before coming to Rutgers, I was an undergraduate student in the
