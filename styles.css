@@ -216,6 +216,14 @@ h2 {
   gap: 42px;
 }
 
+.publications-ungrouped {
+  align-items: first baseline;
+}
+
+.publications-ungrouped > h2 {
+  margin-top: 0;
+}
+
 .publication-group h3 {
   margin: 0 0 13px;
   color: var(--muted);
@@ -239,6 +247,14 @@ h2 {
 
 .publication {
   padding: 18px 0 21px;
+}
+
+.publications-ungrouped .publication-list > li:first-child {
+  border-top: 0;
+}
+
+.publications-ungrouped .publication-list > li:first-child > .publication {
+  padding-top: 0;
 }
 
 .publication h4 {

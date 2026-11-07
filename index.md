@@ -65,7 +65,7 @@ layout: null
               <a href="https://www.rutgers.edu/">Rutgers University</a>, where I am part of the
               <a href="https://theory.cs.rutgers.edu/">CS Theory Group</a> and advised by
               <a href="https://cskarthikcs.github.io/">Karthik C. S.</a>
-              My current interests are mainly in error-correcting codes and fine-grained complexity.
+              My current research is focused mainly in the theory of error-correcting codes.
             </p>
             <p>
               Before coming to Rutgers, I was an undergraduate student in the
@@ -81,9 +81,10 @@ layout: null
           </div>
         </section>
 
-        <section class="content-section" id="publications" aria-labelledby="publications-heading">
+        <section class="content-section{% unless site.data.publications.preprints.size > 0 %} publications-ungrouped{% endunless %}" id="publications" aria-labelledby="publications-heading">
           <h2 id="publications-heading">Publications</h2>
           <div class="section-content publication-groups">
+            {% if site.data.publications.preprints.size > 0 %}
             <div class="publication-group">
               <h3>Preprints</h3>
               <ol class="publication-list">
@@ -128,9 +129,12 @@ layout: null
                 {% endfor %}
               </ol>
             </div>
+            {% endif %}
 
             <div class="publication-group">
+              {% if site.data.publications.preprints.size > 0 %}
               <h3>Published papers</h3>
+              {% endif %}
               <ol class="publication-list">
                 {% for pub in site.data.publications.published %}
                   <li>
