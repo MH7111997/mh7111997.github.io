@@ -323,7 +323,8 @@ h2 {
 .publication-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 15px;
+  align-items: center;
+  gap: 8px 22px;
   margin-top: 10px;
   font-family: var(--sans);
   font-size: 0.74rem;
@@ -345,6 +346,69 @@ h2 {
   width: 1em;
   font-size: 1.12em;
   text-align: center;
+}
+
+.publication-summary-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 30px;
+  height: 28px;
+  margin: -6px 0;
+  padding: 4px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 140ms ease, background-color 140ms ease;
+}
+
+.publication-summary-toggle[hidden] {
+  display: none;
+}
+
+.publication-summary-toggle:hover,
+.publication-summary-toggle:focus-visible,
+.publication-summary-toggle[aria-expanded="true"] {
+  color: var(--accent);
+  background: rgba(140, 47, 61, 0.055);
+}
+
+.publication-summary-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.summary-icon {
+  width: 19px;
+  height: 19px;
+}
+
+.publication-summary {
+  max-width: 96ch;
+  margin-top: 16px;
+  padding: 15px 18px;
+  border-left: 2px solid var(--accent);
+  border-radius: 5px;
+  background: rgba(140, 47, 61, 0.035);
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.publication-summary .katex {
+  font-size: 1em;
+}
+
+.publication-summary > :first-child {
+  margin-top: 0;
+}
+
+.publication-summary > :last-child {
+  margin-bottom: 0;
 }
 
 footer {
